@@ -15,6 +15,7 @@ User de couleur pour renforcer l'aspect festif de l'événement, guider l'utilis
 
 ## II. Inspiration
 ### Recherche graphique
+Des sites ou éléments de sites qui me semblent pouvoir s'adapter au projet :
 - [Twitter](https://twitter.com/?lang=fr) : menu épuré et animation d'accroche au scroll
 - [Muséees Royaux des Beaux-Arts de Belgique](https://www.fine-arts-museum.be/fr/la-collection) : présentation de la pagination des artistes
 - [ArtExpo New York](http://artexponewyork.com/) : organisation des informations dans le footer
@@ -24,6 +25,7 @@ User de couleur pour renforcer l'aspect festif de l'événement, guider l'utilis
 - [Abolute Art Gallery](http://www.absoluteartgallery.com/fr/Artists) : Présentation de la liste des artistes et des pages individuelles des artistes
 
 ### Articles sur Saint LéonART
+Quelques liens utiles pour mieux cerner le projet :
 - [Programme Saint LéonART 2016](https://www.dropbox.com/s/rsp1zhll9u8amtt/138_saint_leonart_programme_6.pdf) (merci à Monsieur Vilain)
 - [Facebook de Saint Léon'ART](https://www.facebook.com/Saint.Leon.Art/)
 - [Site du quartier Saint Léonard](http://www.saint-leonard.be/)  
@@ -35,4 +37,4 @@ J'envisage pour l'instant d'utiliser :
 - et Ubuntu pour le texte courant
 
 J'ai également songé à Amaranth pour les titrages mais Strenuous me semble donner plus de personnalité à l'ensemble.  
-Les polices sont jointes pour vous permettre de les essayer à votre guise. Vous pouvez également vous référer aux images de tests (tous réalisés en 18pt) si vous le souhaitez.
+Les polices sont jointes pour vous permettre de les essayer à votre guise. Vous pouvez également vous référer [aux images de tests](https://github.com/TanguyScholtes/Saint-LeonArt/tree/master/plan/fonts-images) (tous réalisés en 18pt) si vous le souhaitez.
