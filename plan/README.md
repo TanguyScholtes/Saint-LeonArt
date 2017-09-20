@@ -33,8 +33,9 @@ Quelques liens utiles pour mieux cerner le projet :
 
 ### Textes et polices de caractères
 J'envisage pour l'instant d'utiliser les polices suivantes :
+- Whoopass pour le titre du site qui sera indiqué près du logo,
 - Strenuous pour les titrages et certains textes spécifiques,
-- et Ubuntu pour le texte courant
+- et Ubuntu pour le texte courant.
 
 J'ai également songé à Amaranth pour les titrages mais Strenuous me semble donner plus de personnalité à l'ensemble.  
 Les polices sont jointes pour vous permettre de les essayer à votre guise. Vous pouvez également vous référer [aux images de tests](https://github.com/TanguyScholtes/Saint-LeonArt/tree/master/plan/fonts-images) (tous réalisés en 18pt) si vous le souhaitez.
