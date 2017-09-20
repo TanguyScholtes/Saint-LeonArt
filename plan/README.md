@@ -31,10 +31,13 @@ Quelques liens utiles pour mieux cerner le projet :
 - [Site du quartier Saint Léonard](http://www.saint-leonard.be/)  
 - [Article sur RTBF.be](https://www.rtbf.be/info/regions/liege/detail_liege-saint-leon-art-un-parcours-artistique-melant-artistes-et-habitants-du-quartier?id=9385430)
 
-### Polices de caractères
-J'envisage pour l'instant d'utiliser :
+### Textes et polices de caractères
+J'envisage pour l'instant d'utiliser les polices suivantes :
 - Strenuous pour les titrages et certains textes spécifiques,
 - et Ubuntu pour le texte courant
 
 J'ai également songé à Amaranth pour les titrages mais Strenuous me semble donner plus de personnalité à l'ensemble.  
 Les polices sont jointes pour vous permettre de les essayer à votre guise. Vous pouvez également vous référer [aux images de tests](https://github.com/TanguyScholtes/Saint-LeonArt/tree/master/plan/fonts-images) (tous réalisés en 18pt) si vous le souhaitez.
+
+Ayant en projet d'afficher certains textes par dessus des images (notamment sur la page d'accueil afin de présenter l'événement), s'est posée la problématique de la lisibilité de ces textes. En effet, les images sur lesquels ils seraient affichés étant appelées à changer, le contraste entre le texte et l'image sera difficilement prévisible, sans compter le fait que l'image pourrait elle-même contenir du texte.  
+J'envisage donc de [démarquer le texte avec une couleur de fond](https://github.com/TanguyScholtes/Saint-LeonArt/blob/master/plan/text%20over%20image.pdf). Une légère modification de l'opacité de cette couleur de fond pourrait offrir un meilleur rendu, au risque d'avoir un contraste un peu moins bon.
