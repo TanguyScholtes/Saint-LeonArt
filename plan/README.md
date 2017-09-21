@@ -12,6 +12,10 @@ Doivent donc être mis en avant les artistes et l'aspect convivial de l'événem
 Un ton chaleureux, coloré, me semble convenir davantage au projet. Les sites de musées, d'expositions ou de gallerie sont traditionnellement très sobres, avec des dominantes noires et blanches. De plus, l'usage de couleurs vives est déjà mis en avant par les logos et visuels fournis. Faire usage de ces couleurs pour se démarquer me semble être important.
 ### Comment y parvenir ?
 User de couleur pour renforcer l'aspect festif de l'événement, guider l'utilisateur avec des couleurs et la dispoition des éléments vers ce qui doit être mis en avant : les artistes et les expositions.
+### Schéma de relations
+Un schéma des différentes relations et liens transversaux entre les pages du site est disponible [ici](https://github.com/TanguyScholtes/Saint-LeonArt/blob/master/plan/relations%20scheme.pdf).  
+Il est à noter que toutes les pages ne seront pas directement accessibles depuis le menu. Les pages figurant dans le menu de navigation principal seront Accueil, Programme, Artistes, Agenda, En pratique, Actualités, À propos, Partenaires et Contact.  
+Le bas du site contiendra en permanence un formulaire d'inscription à la newsletter et les liens vers les réseaux sociaux de Saint Léon'ART.
 
 ## II. Inspiration
 ### Recherche graphique
@@ -38,7 +42,7 @@ J'envisage pour l'instant d'utiliser les polices suivantes :
 - et Ubuntu pour le texte courant.
 
 J'ai également songé à Amaranth pour les titrages mais Strenuous me semble donner plus de personnalité à l'ensemble.  
-Les polices sont jointes pour vous permettre de les essayer à votre guise. Vous pouvez également vous référer [aux images de tests](https://github.com/TanguyScholtes/Saint-LeonArt/tree/master/plan/fonts-images) (tous réalisés en 18pt) si vous le souhaitez.
+Les polices sont jointes pour vous permettre de les essayer à votre guise. Un exemple de texte est disponible [ici](https://github.com/TanguyScholtes/Saint-LeonArt/blob/master/plan/text%20specimen.pdf) si vous souhaitez voir le rendu de ces polices ensemble. Si vous voulez voir le rendu de ces polices en couleurs et sur fonds différents, référez-vous [aux rendus de couleurs](https://github.com/TanguyScholtes/Saint-LeonArt/tree/master/plan/fonts-images) (tous réalisés avec les polices en 18pt).
 
 Ayant en projet d'afficher certains textes par dessus des images (notamment sur la page d'accueil afin de présenter l'événement), s'est posée la problématique de la lisibilité de ces textes. En effet, les images sur lesquels ils seraient affichés étant appelées à changer, le contraste entre le texte et l'image sera difficilement prévisible, sans compter le fait que l'image pourrait elle-même contenir du texte.  
 J'envisage donc de [démarquer le texte avec une couleur de fond](https://github.com/TanguyScholtes/Saint-LeonArt/blob/master/plan/text%20over%20image.pdf). Une légère modification de l'opacité de cette couleur de fond pourrait offrir un meilleur rendu, au risque d'avoir un contraste un peu moins bon.
