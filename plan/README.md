@@ -35,6 +35,11 @@ Quelques liens utiles pour mieux cerner le projet :
 - [Site du quartier Saint Léonard](http://www.saint-leonard.be/)  
 - [Article sur RTBF.be](https://www.rtbf.be/info/regions/liege/detail_liege-saint-leon-art-un-parcours-artistique-melant-artistes-et-habitants-du-quartier?id=9385430)
 - [Article sur Collectif À Contre-Jour](https://collectifacontrejour.be/news/saint-leon-art-2016)
+- [Article sur Que Faire](https://www.quefaire.be/saint-leon-art-parcours-720481.shtml)
+- [Article sur Lencreuse](https://lencreuse.be/coordination/saint-leonart/)
+- [Article sur le site du quartier Saint Léonard](http://www.saint-leonard.be/2017/09/15/saint-leonart-projet/)
+- [Article sur Out](https://www.out.be/fr/evenements/422548/saint-leon-art/)
+- [Article sur On Va Sortir](http://liege.onvasortir.com/saint-leon-039art-ca-s-039etoffe-777641.html)
 
 ### Partenaires de l'édition 2016 de Saint Léon'ART
 - [Comptoir des Ressources Créatives](http://www.comptoirdesressourcescreatives.be/)
