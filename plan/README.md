@@ -68,5 +68,26 @@ Ayant en projet d'afficher certains textes par dessus des images (notamment sur 
 J'envisage donc de [démarquer le texte avec une couleur de fond](https://github.com/TanguyScholtes/Saint-LeonArt/blob/master/plan/text%20over%20image.pdf). Une légère modification de l'opacité de cette couleur de fond pourrait offrir un meilleur rendu, au risque d'avoir un contraste un peu moins bon.
 
 ## III. Maquette visuelle
-Un premier jet du visuel en version mobile [de la page d'accueil](https://github.com/TanguyScholtes/Saint-LeonArt/blob/master/plan/visual-mockup/accueil-portable.pdf) et [du menu](https://github.com/TanguyScholtes/Saint-LeonArt/blob/master/plan/visual-mockup/menu-toggle.pdf) sont disponibles dans [le dossier prévu à cet effet](https://github.com/TanguyScholtes/Saint-LeonArt/blob/master/plan/visual-mockup). En cas de problème, des versions [.psd](https://github.com/TanguyScholtes/Saint-LeonArt/blob/master/plan/visual-mockup/work-files) et [.jpg](https://github.com/TanguyScholtes/Saint-LeonArt/blob/master/plan/visual-mockup/jpg-files) des visuels sont disponibles.  
-Les différents retours du/des client(s) sur ces visuels seront consignés ici.
+Un premier jet du visuel du site. Les visuels sont disponibles en [version PDF](https://github.com/TanguyScholtes/Saint-LeonArt/blob/master/plan/visual-mockup/), [version PSD](https://github.com/TanguyScholtes/Saint-LeonArt/blob/master/plan/visual-mockup/work-files) et [version JPG](https://github.com/TanguyScholtes/Saint-LeonArt/blob/master/plan/visual-mockup/jpg-files). Les différents retours du/des client(s) seront consignés ici, ainsi que les versions ultérieures intégrant ces corrections.
+### Page d'accueil
+Portable (smartphone, tablette) :  
+[Version PDF](https://github.com/TanguyScholtes/Saint-LeonArt/blob/master/plan/visual-mockup/accueil-portable.pdf) - [Version PSD](https://github.com/TanguyScholtes/Saint-LeonArt/blob/master/plan/visual-mockup/work-files/accueil-portable.psd) - [Version JPG](https://github.com/TanguyScholtes/Saint-LeonArt/blob/master/plan/visual-mockup/jpg-files/accueil-portable.jpg)  
+Desktop :
+-
+
+Après avoir été soumis à [Bernard Petithan](mailto:bernard@lencreuse.be), notre responsable sur ce projet, voici ses retours sur la version portable :
+- Attention aux espacements pour les blocs, les titres et les éléments
+- La police des titres (Strenuous) est intéressante, mais pas toujours lisible (comme sur les titres des différentes actualités)
+- Les ombres sur les titres font partie d'un style graphique choisi mais le public-cible du site doit rester très large
+- Beaucoup d'éléments sont présentés sous forme de texte ou de listes (par exemple la section "des activités pour tous"). Il suggère de présenter différentes catégories avec une activité par catégorie
+- Manque d'informations sur la section des Actualités (manque de date, d'image de présentation, de sous-titre, de <a href="https://en.wikipedia.org/wiki/Call_to_action_(marketing)" title="Wikipedia - Call to action (marketing)">call to action</a> vers la suite de l'actualité)
+- Attention à la visibilité des Call to action : rouge sur mauve est peu visible. Il suggère blanc sur mauve
+- Pour la section du fil Instagram, il ne souhaite pas voir apparaître l'avatar, le nom d'utilisateur et la bio du compte Instragram défini. Il souligne également que 3 à 4 images sur la largeur d'un téléphone risquent d'être fort petites.
+
+### Menu (portable)
+Portable (smartphone, tablette) :  
+[Version PDF](https://github.com/TanguyScholtes/Saint-LeonArt/blob/master/plan/visual-mockup/menu-toggle.pdf) - [Version PSD](https://github.com/TanguyScholtes/Saint-LeonArt/blob/master/plan/visual-mockup/work-files/menu-toggle.psd) - [Version JPG](https://github.com/TanguyScholtes/Saint-LeonArt/blob/master/plan/visual-mockup/jpg-files/menu-toggle.jpg)  
+
+Voici les retours de [Bernard Petithan](mailto:bernard@lencreuse.be), notre responsable sur ce projet, sur cette première version :
+- Il souhaiterai un menu avec fond blanc, texte en couleur et séparations simples pour plus de lisibilité
+- Il suggère également de penser à l'utilisation sur smartphone et d'imaginer ce que cela donnerait sur téléphone.
