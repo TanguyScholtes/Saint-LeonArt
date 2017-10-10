@@ -69,6 +69,7 @@ J'envisage donc de [démarquer le texte avec une couleur de fond](https://github
 
 ## III. Maquette visuelle
 Un premier jet du visuel du site. Les visuels sont disponibles en [version PDF](https://github.com/TanguyScholtes/Saint-LeonArt/blob/master/plan/visual-mockup/), [version PSD](https://github.com/TanguyScholtes/Saint-LeonArt/blob/master/plan/visual-mockup/work-files) et [version JPG](https://github.com/TanguyScholtes/Saint-LeonArt/blob/master/plan/visual-mockup/jpg-files). Les différents retours du/des client(s) seront consignés ici, ainsi que les versions ultérieures intégrant ces corrections.
+Une version interactive du visuel en seconde version [est accessible en ligne sur mon site personnel](http://tanguyscholtes.be/saint-leonart/). Les fichiers sont évidemment [disponibles sur GitHub](https://github.com/TanguyScholtes/Saint-LeonArt/blob/master/plan/visual-mockup/click-model).
 ### Page d'accueil
 #### Première version
 Portable (smartphone, tablette) :  
