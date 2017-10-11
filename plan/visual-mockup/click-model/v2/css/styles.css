@@ -142,6 +142,7 @@ body {
 
 .content-title, .page-title, .locations-preview, .event-preview-text {
   font-family: "Strenuous", "Ubuntu", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  letter-spacing: 1px;
 }
 
 .page-title {
@@ -175,7 +176,7 @@ section {
 }
 
 .locations-preview {
-  font-size: 1.5em;
+  font-size: 1.25em;
   max-width: 1366px;
   margin: 2.7em auto 0 auto;
 }
@@ -270,13 +271,12 @@ section {
 
 .partner .partner-logo {
   border-radius: 50%;
-  transition: border-radius 350ms ease, transform 350ms ease;
+  transition: border-radius 350ms ease;
 }
 
 .partner .partner-logo:hover {
-  border-radius: 0;
-  transition: border-radius 350ms ease, transform 350ms ease;
-  transform: scale(1.25);
+  border-radius: 0 1em;
+  transition: border-radius 350ms ease;
 }
 
 .social {
@@ -285,6 +285,13 @@ section {
 
 .social .social-link {
   margin: 0 1em;
+}
+
+/* --- Responsive breakpoints --- */
+@media only screen and (min-width: 984px) {
+  .locations-preview {
+    font-size: 1.5em;
+  }
 }
 
 /*--- Partials ---*/
@@ -3378,6 +3385,7 @@ section {
 .banner-emphasis {
   font-size: 1.5em;
   font-family: "Strenuous", "Ubuntu", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  letter-spacing: 1px;
   position: absolute;
   top: 0.75em;
   right: -1.125em;
@@ -3439,7 +3447,7 @@ section {
 }
 
 /* --- Responsive breakpoints --- */
-@media only screen and (min-width: 984px) {
+@media only screen and (min-width: 1000px) {
   .menu-toggle-button {
     display: none;
   }
@@ -3499,6 +3507,7 @@ section {
 .footer-title {
   margin-top: 0;
   font-family: "Strenuous", "Ubuntu", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  letter-spacing: 1px;
 }
 
 .footer-link {
@@ -3591,6 +3600,7 @@ section {
 
 .text-over-image-title {
   font-family: "Strenuous", "Ubuntu", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  letter-spacing: 1px;
   font-size: 1.25em;
 }
 
@@ -3662,6 +3672,7 @@ section {
 
 .media-title {
   font-family: "Strenuous", "Ubuntu", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  letter-spacing: 1px;
   font-size: 1.25em;
 }
 
@@ -3682,7 +3693,7 @@ section {
 }
 
 .media-link:hover img {
-  border-radius: 0;
+  border-radius: 0 1em;
   transition: border-radius 350ms ease;
 }
 

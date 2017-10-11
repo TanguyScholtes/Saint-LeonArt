@@ -69,7 +69,6 @@ J'envisage donc de [démarquer le texte avec une couleur de fond](https://github
 
 ## III. Maquette visuelle
 Un premier jet du visuel du site. Les visuels sont disponibles en [version PDF](https://github.com/TanguyScholtes/Saint-LeonArt/blob/master/plan/visual-mockup/), [version PSD](https://github.com/TanguyScholtes/Saint-LeonArt/blob/master/plan/visual-mockup/work-files) et [version JPG](https://github.com/TanguyScholtes/Saint-LeonArt/blob/master/plan/visual-mockup/jpg-files). Les différents retours du/des client(s) seront consignés ici, ainsi que les versions ultérieures intégrant ces corrections.
-Une version interactive du visuel en seconde version [est accessible en ligne sur mon site personnel](http://tanguyscholtes.be/saint-leonart/). Les fichiers sont évidemment [disponibles sur GitHub](https://github.com/TanguyScholtes/Saint-LeonArt/blob/master/plan/visual-mockup/click-model).
 ### Page d'accueil
 #### Première version
 Portable (smartphone, tablette) :  
@@ -106,3 +105,24 @@ Portable (smartphone, tablette) :
 [Version PDF](https://github.com/TanguyScholtes/Saint-LeonArt/blob/master/plan/visual-mockup/menu-toggle_v2.pdf) - [Version PSD](https://github.com/TanguyScholtes/Saint-LeonArt/blob/master/plan/visual-mockup/work-files/menu-toggle_v2.psd) - [Version JPG](https://github.com/TanguyScholtes/Saint-LeonArt/blob/master/plan/visual-mockup/jpg-files/menu-toggle_v2.jpg)
 
 Les corrections demandées par le client ont toutes été effectuées.
+
+### Retours sur la seconde version
+
+Lors d'une visite dans notre classe, nous avons eu l'occasion d'avoir de nouveau des retours de Bernard Petithan et de notre professeur Dominique Vilain sur la page d'accueil (version desktop et mobile).  
+La version interactive du visuel utilisé lors de cette rencontre [est accessible en ligne sur mon site personnel](http://tanguyscholtes.be/saint-leonart/click-model/v2/). Les fichiers sont évidemment [disponibles sur GitHub](https://github.com/TanguyScholtes/Saint-LeonArt/blob/master/plan/visual-mockup/click-model/v2).  
+Voici un résumé de leurs retours :
+- Il y a toujours un problème avec les espacements sur tout le site. Revoir pour mieux associer visuellement les titres à leur contenu (éviter les espacements trop semblables au dessus et en dessous).
+- Il y a une surabondance de violet sur tout le site, ce qui le rend trop agressif visuellement. Il serait préférable d'opter pour une présentation plus sobre, qui augmenterait du même coup l'impact de la couleur.
+- Il y a trop de contenus centrés sur le site.
+- La police "Strenuous" est à revoir car ses yeux sont visiblement trop petits en certaines tailles de police, ce qui la rend difficilement lisible. La garder seulement pour les titres de niveau 1 et 2, en taille d'au moins 18px et pas en couleur claire sur fond foncé.
+- Call to action à revoir. Les bordures et couleurs conviennent peu.
+- Ajouter des sections avec couleur de fond différente pour structurer le site.
+- Sur la version desktop, décaler plus le 2018 vers la droite. Ne surtout pas ajouter un "Saint Léon'Art" en grand au centre du slider.
+- Les bordures foncées sur le menu et les boutons sont à revoir également. Opter pour une bordure plus claire rend le design plus séduisant.
+- Éviter le slider si il est seulement à but illustratif. Si les images ne sont pas cliquables, préférer une seule image aléatoire retirée à chaque requête. Ajouter une diagonale sous le slider/l'image serait bien (rappel à la diagonale sur le logo du client).
+- Revoir la présentation des activités. Leur structure interne ne convient pas, il manque d'espacements, la police de titre ne convient pas, l'affichage posera problème en cas de nombreux artistes à un même événement, le gras dans le texte ne convient pas, les différentes activités ne sont pas alignées. On suggère un alignement sur le bas grâce à flex-box.
+- Aligner à gauche le texte des actualités et modifier le niveau de CTA du lien "Lire la suite", qui se confond un peu avec le bouton qui suit. Il suggère un simple lien.
+- Instagram est trop mis en avant par rapport aux autres réseaux sociaux (le principal utilisé actuellement étant Facebook). Éviter de le présenter à un endroit sans qu'il soit accompagné des autres.
+- Ne pas centrer le texte dans le champ d'email de la newsletter. Revoir la couleur du bouton au survol car elle se fond avec le footer.
+- Attention aux logos des partenaires : ils ne doivent pas être coupés. Attribuer un padding blanc autour pour éviter qu'ils soient trop collés au bord de l'image.
+- Les liens vers les réseaux sociaux ne conviennent pas en jaune.
