@@ -6,16 +6,16 @@
 ### Pour qui ?
 Le site sera principalement à l'usage des visiteurs et des curieux, afin qu'ils puissent prendre connaissance des artistes, des lieux d'exposition, des activités et des horaires de l'événement.
 ### Que mettre en avant ?
-Saint Léon'ART a pour but de promouvoir des artistes et de briser l'aspect élitiste de l'art, de le rendre accessible, convivial.  
+Saint Léon'Art a pour but de promouvoir des artistes et de briser l'aspect élitiste de l'art, de le rendre accessible, convivial.  
 Doivent donc être mis en avant les artistes et l'aspect convivial de l'événement, en plus de l'événement lui-même.
 ### Quel ton ?
-Un ton chaleureux, coloré, me semble convenir davantage au projet. Les sites de musées, d'expositions ou de gallerie sont traditionnellement très sobres, avec des dominantes noires et blanches. De plus, l'usage de couleurs vives est déjà mis en avant par les logos et visuels fournis. Faire usage de ces couleurs pour se démarquer me semble être important.
+Un ton chaleureux, coloré, me semble convenir davantage au projet. Les sites de musées, d'expositions ou de galerie sont traditionnellement très sobres, avec des dominantes noires et blanches. De plus, l'usage de couleurs vives est déjà mis en avant par les logos et visuels fournis. Faire usage de ces couleurs pour se démarquer me semble être important.
 ### Comment y parvenir ?
 User de couleur pour renforcer l'aspect festif de l'événement, guider l'utilisateur avec des couleurs et la disposition des éléments vers ce qui doit être mis en avant : les artistes et les expositions.
 ### Schéma de relations
 Un [schéma des différentes relations et liens transversaux entre les pages du site](https://github.com/TanguyScholtes/Saint-LeonArt/blob/master/plan/relations%20scheme.pdf) est disponible.  
 Il est à noter que toutes les pages ne seront pas directement accessibles depuis le menu. Les pages figurant dans le menu de navigation principal seront Accueil, Programme, Artistes, Agenda, En pratique, Actualités, À propos et Contact.  
-Le bas du site contiendra en permanence un formulaire d'inscription à la newsletter, les partenaires et les liens vers les réseaux sociaux de Saint Léon'ART.
+Le bas du site contiendra en permanence un formulaire d'inscription à la newsletter, les partenaires et les liens vers les réseaux sociaux de Saint Léon'Art.
 
 ## II. Inspiration
 ### Recherche graphique
@@ -28,10 +28,10 @@ Des sites ou éléments de sites qui me semblent pouvoir s'adapter au projet :
 - [Musée L](http://www.museel.be/en) : Présentation des News
 - [Abolute Art Gallery](http://www.absoluteartgallery.com/fr/Artists) : Présentation de la liste des artistes et des pages individuelles des artistes
 
-### Articles sur Saint Léon'ART
+### Articles sur Saint Léon'Art
 Quelques liens utiles pour mieux cerner le projet :
-- [Programme Saint LéonART 2016](https://www.dropbox.com/s/rsp1zhll9u8amtt/138_saint_leonart_programme_6.pdf) (merci à Monsieur Vilain)
-- [Facebook de Saint Léon'ART](https://www.facebook.com/Saint.Leon.Art/)
+- [Programme Saint Léon'Art 2016](https://www.dropbox.com/s/rsp1zhll9u8amtt/138_saint_leonart_programme_6.pdf) (merci à Monsieur Vilain)
+- [Facebook de Saint Léon'Art](https://www.facebook.com/Saint.Leon.Art/)
 - [Site du quartier Saint Léonard](http://www.saint-leonard.be/)  
 - [Article sur RTBF.be](https://www.rtbf.be/info/regions/liege/detail_liege-saint-leon-art-un-parcours-artistique-melant-artistes-et-habitants-du-quartier?id=9385430)
 - [Article sur Collectif À Contre-Jour](https://collectifacontrejour.be/news/saint-leon-art-2016)
@@ -41,7 +41,7 @@ Quelques liens utiles pour mieux cerner le projet :
 - [Article sur Out](https://www.out.be/fr/evenements/422548/saint-leon-art/)
 - [Article sur On Va Sortir](http://liege.onvasortir.com/saint-leon-039art-ca-s-039etoffe-777641.html)
 
-### Partenaires de l'édition 2016 de Saint Léon'ART
+### Partenaires de l'édition 2016 de Saint Léon'Art
 - [Comptoir des Ressources Créatives](http://www.comptoirdesressourcescreatives.be/)
 - [Imprimerie Vervinckt&fils](http://www.vervinckt.com/)
 - [Présence et Action Culturelles](http://www.pac-g.be/)
@@ -88,7 +88,7 @@ Portable (smartphone, tablette) :
 [Version PDF](https://github.com/TanguyScholtes/Saint-LeonArt/blob/master/plan/visual-mockup/accueil-portable_v2.pdf) - [Version PSD](https://github.com/TanguyScholtes/Saint-LeonArt/blob/master/plan/visual-mockup/work-files/accueil-portable_v2.psd) - [Version JPG](https://github.com/TanguyScholtes/Saint-LeonArt/blob/master/plan/visual-mockup/jpg-files/accueil-portable_v2.jpg)
 
 Suite à ces remarques, une nouvelle version de la page d'accueil a vu le jour.  
-La plupart des corrections ont été apportées, mais il est à noter que la remarque sur les call to action rouges sur fond mauve, si elle a été prise en compte, n'a pas débouché sur la suggestion du client. En effet, passer ces éléments en blanc les rendaient trop semblables au champ d'email présent dans le pied de page. Ils ont donc été modifiés en jaune (une des couleurs du logo Saint-Léon'Art).  
+La plupart des corrections ont été apportées, mais il est à noter que la remarque sur les call to action rouges sur fond mauve, si elle a été prise en compte, n'a pas débouché sur la suggestion du client. En effet, passer ces éléments en blanc les rendaient trop semblables au champ d'email présent dans le pied de page. Ils ont donc été modifiés en jaune (une des couleurs du logo Saint Léon'Art).  
 Le rythme vertical a également été revu pour être plus régulier mais il reste encore à travailler. [M. Dominique Vilain](https://github.com/dominiquevilain), mon professeur, estime qu'il sera plus facile d'instaurer et de maintenir un rythme vertical cohérent en CSS. Il sera donc amélioré dans la maquette cliquable qui va suivre.
 
 ### Menu (portable)
@@ -119,10 +119,12 @@ Voici un résumé de leurs retours :
 - Ajouter des sections avec couleur de fond différente pour structurer le site.
 - Sur la version desktop, décaler plus le 2018 vers la droite. Ne surtout pas ajouter un "Saint Léon'Art" en grand au centre du slider.
 - Les bordures foncées sur le menu et les boutons sont à revoir également. Opter pour une bordure plus claire rend le design plus séduisant.
-- Éviter le slider si il est seulement à but illustratif. Si les images ne sont pas cliquables, préférer une seule image aléatoire retirée à chaque requête. Ajouter une diagonale sous le slider/l'image serait bien (rappel à la diagonale sur le logo du client).
+- Éviter le slider si il est seulement à but illustratif. Si les images ne sont pas cliquables, préférer une seule image aléatoire retirée à chaque requête. Ajouter une diagonale sous le slider/l'image serait bien (rappel à la diagonale sur le logo du client). Revoir la façon dont le texte est présenté sur l'image.
 - Revoir la présentation des activités. Leur structure interne ne convient pas, il manque d'espacements, la police de titre ne convient pas, l'affichage posera problème en cas de nombreux artistes à un même événement, le gras dans le texte ne convient pas, les différentes activités ne sont pas alignées. On suggère un alignement sur le bas grâce à flex-box.
 - Aligner à gauche le texte des actualités et modifier le niveau de CTA du lien "Lire la suite", qui se confond un peu avec le bouton qui suit. Il suggère un simple lien.
 - Instagram est trop mis en avant par rapport aux autres réseaux sociaux (le principal utilisé actuellement étant Facebook). Éviter de le présenter à un endroit sans qu'il soit accompagné des autres.
-- Ne pas centrer le texte dans le champ d'email de la newsletter. Revoir la couleur du bouton au survol car elle se fond avec le footer.
+- Ne pas centrer le texte dans le champ d'email de la newsletter. Revoir la couleur de sa bordure au focus car trop foncée. Revoir la couleur du bouton au survol car elle se fond avec le footer.
 - Attention aux logos des partenaires : ils ne doivent pas être coupés. Attribuer un padding blanc autour pour éviter qu'ils soient trop collés au bord de l'image.
 - Les liens vers les réseaux sociaux ne conviennent pas en jaune.
+
+Suite à ces retours, ayant suffisamment de pistes pour achever le design, nous avons commencé l'intégration du projet dans Wordpress.
