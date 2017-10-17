@@ -1,69 +1,63 @@
 <?php
 /**
- * Twenty Seventeen back compat functionality
+ * Twenty Fifteen back compat functionality
  *
- * Prevents Twenty Seventeen from running on WordPress versions prior to 4.7,
+ * Prevents Twenty Fifteen from running on WordPress versions prior to 4.1,
  * since this theme is not meant to be backward compatible beyond that and
- * relies on many newer functions and markup changes introduced in 4.7.
+ * relies on many newer functions and markup changes introduced in 4.1.
  *
  * @package WordPress
- * @subpackage Twenty_Seventeen
- * @since Twenty Seventeen 1.0
+ * @subpackage Twenty_Fifteen
+ * @since Twenty Fifteen 1.0
  */
 
 /**
- * Prevent switching to Twenty Seventeen on old versions of WordPress.
+ * Prevent switching to Twenty Fifteen on old versions of WordPress.
  *
  * Switches to the default theme.
  *
- * @since Twenty Seventeen 1.0
+ * @since Twenty Fifteen 1.0
  */
-function twentyseventeen_switch_theme() {
-	switch_theme( WP_DEFAULT_THEME );
+function twentyfifteen_switch_theme() {
+	switch_theme( WP_DEFAULT_THEME, WP_DEFAULT_THEME );
 	unset( $_GET['activated'] );
-	add_action( 'admin_notices', 'twentyseventeen_upgrade_notice' );
+	add_action( 'admin_notices', 'twentyfifteen_upgrade_notice' );
 }
-add_action( 'after_switch_theme', 'twentyseventeen_switch_theme' );
+add_action( 'after_switch_theme', 'twentyfifteen_switch_theme' );
 
 /**
- * Adds a message for unsuccessful theme switch.
+ * Add message for unsuccessful theme switch.
  *
  * Prints an update nag after an unsuccessful attempt to switch to
- * Twenty Seventeen on WordPress versions prior to 4.7.
+ * Twenty Fifteen on WordPress versions prior to 4.1.
  *
- * @since Twenty Seventeen 1.0
- *
- * @global string $wp_version WordPress version.
+ * @since Twenty Fifteen 1.0
  */
-function twentyseventeen_upgrade_notice() {
-	$message = sprintf( __( 'Twenty Seventeen requires at least WordPress version 4.7. You are running version %s. Please upgrade and try again.', 'twentyseventeen' ), $GLOBALS['wp_version'] );
+function twentyfifteen_upgrade_notice() {
+	$message = sprintf( __( 'Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again.', 'twentyfifteen' ), $GLOBALS['wp_version'] );
 	printf( '<div class="error"><p>%s</p></div>', $message );
 }
 
 /**
- * Prevents the Customizer from being loaded on WordPress versions prior to 4.7.
+ * Prevent the Customizer from being loaded on WordPress versions prior to 4.1.
  *
- * @since Twenty Seventeen 1.0
- *
- * @global string $wp_version WordPress version.
+ * @since Twenty Fifteen 1.0
  */
-function twentyseventeen_customize() {
-	wp_die( sprintf( __( 'Twenty Seventeen requires at least WordPress version 4.7. You are running version %s. Please upgrade and try again.', 'twentyseventeen' ), $GLOBALS['wp_version'] ), '', array(
+function twentyfifteen_customize() {
+	wp_die( sprintf( __( 'Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again.', 'twentyfifteen' ), $GLOBALS['wp_version'] ), '', array(
 		'back_link' => true,
 	) );
 }
-add_action( 'load-customize.php', 'twentyseventeen_customize' );
+add_action( 'load-customize.php', 'twentyfifteen_customize' );
 
 /**
- * Prevents the Theme Preview from being loaded on WordPress versions prior to 4.7.
+ * Prevent the Theme Preview from being loaded on WordPress versions prior to 4.1.
  *
- * @since Twenty Seventeen 1.0
- *
- * @global string $wp_version WordPress version.
+ * @since Twenty Fifteen 1.0
  */
-function twentyseventeen_preview() {
+function twentyfifteen_preview() {
 	if ( isset( $_GET['preview'] ) ) {
-		wp_die( sprintf( __( 'Twenty Seventeen requires at least WordPress version 4.7. You are running version %s. Please upgrade and try again.', 'twentyseventeen' ), $GLOBALS['wp_version'] ) );
+		wp_die( sprintf( __( 'Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again.', 'twentyfifteen' ), $GLOBALS['wp_version'] ) );
 	}
 }
-add_action( 'template_redirect', 'twentyseventeen_preview' );
+add_action( 'template_redirect', 'twentyfifteen_preview' );
