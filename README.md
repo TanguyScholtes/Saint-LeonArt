@@ -10,8 +10,11 @@ The will of this event is to take the art close to the people, to breake that el
 ## Prerequisites
 As far as development goes, these are the plugins required for the theme. Please keep in mind that the development is still in progress and thus this list is far from being final.
 - [Advanced Custom Fields](https://wordpress.org/plugins/advanced-custom-fields/) version 5 or greater (PRO version will probably be necessary by the end of the project)
-- [Wordpress Post Type Archives Link](https://fr.wordpress.org/plugins/post-type-archive-links/)
+- [Post Type Archives Link](https://fr.wordpress.org/plugins/post-type-archive-links/)
 - [MailChimp for WordPress](https://fr.wordpress.org/plugins/mailchimp-for-wp/)
+
+The following plugins are recommended but not required :
+- [Wordpress Importer](https://wordpress.org/plugins/wordpress-importer/), to seed Wordpress' database with content and get you started straight away
 
 ## How to install ?
 There is not much to install yet. At this state, the theme would be far from functionnal, so we recommend not installing it for now.
