@@ -23,13 +23,14 @@
 		<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5.js"></script>
 	<![endif]-->
 	<?php wp_head(); ?>
+	<link rel="shortcut icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/img/favicon.png" />
 </head>
 
 <body <?php body_class(); ?>>
 
 <div class="banner-wrapper">
 	<div id="Banner" class="banner">
-		<img class="site-logo" src="img/logo.png">
+		<img class="site-logo" src="<?php echo get_template_directory_uri(); ?>/img/logo.png">
 		<?php if ( is_front_page() && is_home() ) : ?>
 		    <h1 class="site-title">
 		    	<a class="banner-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
@@ -41,14 +42,6 @@
 	    		<span class="banner-emphasis">2018</span>
 		    </p>
 	    <?php endif;?>
-
-		<!--
-		<?php $description = get_bloginfo( 'description', 'display' );
-			if ( $description || is_customize_preview() ) : ?>
-			<p class="site-description"><?php echo $description; ?></p>
-		<?php endif;?>
-		<button class="secondary-toggle"><?php _e( 'Menu and widgets', 'saint-leonart' ); ?></button>
-		-->
 
 		<?php get_sidebar(); ?>
 	</div>

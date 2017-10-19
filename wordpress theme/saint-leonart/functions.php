@@ -25,16 +25,17 @@
  * @since Saint Léon'Art 0.0.1
  */
 
- /*------- Start of custom insertions -------*/
+/*------- Start of custom insertions -------*/
 
- /**
+add_theme_support( 'post-thumbnails' );
+/**
  * Enable ACF 5 early access
  * Requires at least version ACF 4.4.12 to work
  */
- define('ACF_EARLY_ACCESS', '5');
+define('ACF_EARLY_ACCESS', '5');
 
- add_action( 'init', 'create_post_type' );
- function create_post_type() {
+
+function create_post_type() {
      register_post_type( 'artists',
  		array(
  			'labels' => array(
@@ -50,7 +51,7 @@
                 'not_found_in_trash' => __( 'Aucun Artiste trouvé dans la Corbeille' ),
  			),
  			'public' => true,
- 			'has_archive' => false,
+ 			'has_archive' => true,
             'menu_icon' => 'dashicons-groups',
  		)
  	 );
@@ -69,7 +70,7 @@
                'not_found_in_trash' => __( 'Aucun Lieu trouvé dans la Corbeille' ),
            ),
            'public' => true,
-           'has_archive' => false,
+           'has_archive' => true,
            'menu_icon' => 'dashicons-location',
        )
      );
@@ -88,7 +89,7 @@
                   'not_found_in_trash' => __( 'Aucun Événement trouvé dans la Corbeille' ),
               ),
               'public' => true,
-              'has_archive' => false,
+              'has_archive' => true,
               'menu_icon' => 'dashicons-calendar-alt',
           )
       );
@@ -165,9 +166,10 @@
                 'menu_icon' => 'dashicons-businessman',
            )
       );
- }
+}
+add_action( 'init', 'create_post_type' );
 
- function change_title_text( $title ){
+function change_title_text( $title ){
      $screen = get_current_screen();
 
      if  ( 'artists' == $screen->post_type ) {
@@ -194,12 +196,10 @@
 
      return $title;
 }
-
 add_filter( 'enter_title_here', 'change_title_text' );
 
 
- add_action( 'init', 'create_taxonomies' );
- function create_taxonomies() {
+function create_taxonomies() {
         register_taxonomy( 'type',
     		'activities',
     		array(
@@ -212,9 +212,11 @@ add_filter( 'enter_title_here', 'change_title_text' );
     			'label' => __( 'Domaine de prédilection' ),
     		)
     	);
- }
+}
+add_action( 'init', 'create_taxonomies' );
 
- function remove_menus(){
+
+function remove_menus(){
      remove_menu_page( 'edit.php' );                   //Posts
      remove_menu_page( 'edit-comments.php' );          //Comments
 }
